@@ -1,18 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy CV/Resume
+% CV/Resume
 % XeLaTeX Template
 % Version 1.0 (5/5/2014)
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% Original author:
-% Debarghya Das (http://www.debarghyadas.com)
-% With extensive modifications by:
-% Vel (vel@latextemplates.com)
+% Author:
+% Naman Kumar Sharma
 %
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
 % Important notes:
 % This template needs to be compiled with XeLaTeX.
@@ -27,9 +23,10 @@
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-% \lastupdated % Print the Last Updated text at the top right
+\lastupdated % Print the Last Updated text at the top right
 
 \namesection{Naman Kumar}{Sharma}{ % Your name
+\subsubsectionspace
 \href{mailto:namansharma9971@gmail.com}{namansharma9971@gmail.com} | 9971258626 % Your contact information
 }
 
@@ -37,27 +34,27 @@
 %	LEFT COLUMN
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+\begin{minipage}[t]{0.35\textwidth} % The left column takes up 33% of the text width of the page
 
 %------------------------------------------------
 % Education
 %------------------------------------------------
 
 \section{Education} 
-
+\subsubsectionspace
 \subsection{ABESIT}
-
+\subsubsectionspace
 \descript{BTech in Computer Science}
 \location{Expected 2023 | Ghaziabad,India}
 \location{CGPA: 6.84 (till 4th Semester)}
 
-\sectionspace % Some whitespace after the section
+\subsectionspace % Some whitespace after the section
 
 \descript{JKG INTERNATIONAL SCHOOL}
 \location{INTERMEDIATE-CBSE}
 \location{2019 | GHAZIABAD | 76.6\%}
 
-\sectionspace % Some whitespace after the section
+\subsectionspace % Some whitespace after the section
 
 \descript{JKG INTERNATIONAL SCHOOL}
 \location{HIGH SCHOOL-CBSE}
@@ -72,30 +69,35 @@
 %------------------------------------------------
 
 \section{Skills}
+\subsubsectionspace
 \subsection{Programming}
+\subsubsectionspace
 \textbullet{}Python \textbullet{} Java \textbullet{} C++ \textbullet{} C \textbullet{} HTML \textbullet{}CSS \textbullet{}JavaScript \textbullet{} Solidity \textbullet{} MySQL
 \textbullet{}React.js
-\sectionspace
+\subsectionspace
 
 \subsection{Tools/Applications}
+\subsubsectionspace
 \textbullet{}Visual Studio \textbullet{} Sublime Text 3
 \textbullet{} hardhat \textbullet{} Ethers.js \textbullet{} Git/GitHub \textbullet{} Node.js
 
-\sectionspace
+\subsectionspace
 \subsection{Operating Systems}
+\subsubsectionspace
 \textbullet{}Windows \textbullet{} Linux (Ubuntu)
-
-\sectionspace % Some whitespace after the section
+\subsectionspace
 \subsection{Core Concepts}
+\subsubsectionspace
 \textbullet{} OOP
 \textbullet{} DBMS
+\textbullet{} DSA
 \textbullet{} Blockchain
 %------------------------------------------------
 % Links
 %------------------------------------------------
-
+\sectionspace
 \section{Links} 
-
+\subsubsectionspace
 Github: \href{https://github.com/namansharma05}{github.com/namansharma05} \\
 Codechef: \href{https://www.codechef.com/users/necend}{codechef.com/Necend} \\
 Codeforces: \href{https://codeforces.com/profile/Necend}{codeforces.com/Necend}
@@ -107,7 +109,8 @@ Twitter: \href{https://twitter.com/NamanSharma05}{twitter.com/NamanSharma05}
 \sectionspace % Some whitespace after the section
 
 \section{Hobbies}
-\textbullet{}Football \textbullet{} Competative Programming
+\subsubsectionspace
+\textbullet{}Watching Football \textbullet{} Competative Programming
 %----------------------------------------------------------------------------------------
 
 \end{minipage} % The end of the left column
@@ -117,17 +120,17 @@ Twitter: \href{https://twitter.com/NamanSharma05}{twitter.com/NamanSharma05}
 %	RIGHT COLUMN
 %----------------------------------------------------------------------------------------
 %
-\begin{minipage}[t]{0.56\textwidth} % The right column takes up 66% of the text width of the page
+\begin{minipage}[t]{0.52\textwidth} % The right column takes up 66% of the text width of the page
 
 %------------------------------------------------
 % Experience
 %------------------------------------------------
 
 \section{Projects}
-
+\subsubsectionspace
 \runsubsection{Sorting Visualizer |}
-\descript{ \href{https://github.com/namansharma05/Sorting-Visualizer}{Github} | \href{https://sortingvisualizerproject.netlify.app/}{viSort}}
-
+\descript{\href{https://sortingvisualizerproject.netlify.app/}{viSort}}
+\subsubsectionspace
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
 \item Design and developed complete application using HTML, CSS, JavaScript
@@ -138,13 +141,13 @@ Twitter: \href{https://twitter.com/NamanSharma05}{twitter.com/NamanSharma05}
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
-\runsubsection{Lottery |}
-\descript{\href{https://github.com/namansharma05/LotterySmartContract}{Github}}
-
+\runsubsection{Lottery}
+% \descript{\href{https://github.com/namansharma05/LotterySmartContract}{Github}}
+\subsubsectionspace
 % \location{June 2014 – Present | Kokomo, IN}
 \begin{tightitemize}
 \item Implemented a smart contract for Lottery using Solidity Language
-\item Designed and Deployed complete application using React.js, hardhat, and ethers.js
+\item Designed and Deployed complete application using hardhat, and ethers.js
 \item Used keccak256 algorithm to choose a random winner from a list of participants
 \item Learned about how to develop smart contracts and deploy them
 \end{tightitemize}
@@ -154,12 +157,13 @@ Twitter: \href{https://twitter.com/NamanSharma05}{twitter.com/NamanSharma05}
 
 
 
-\runsubsection{CrowdFunding |}
-\descript{\href{https://github.com/namansharma05/CrowdFunding}{Github}}
+\runsubsection{CrowdFunding}
+\subsubsectionspace
+% \descript{\href{https://github.com/namansharma05/CrowdFunding}{Github}}
 
 % \location{May 2013 – Jan. 2014 | West Lafayette, IN}
 \begin{tightitemize}
-\item Created a complete Decentralized application using React.js, hardhat, ethers.js, solidity
+\item Created a complete Decentralized application using hardhat, ethers.js, solidity
 \item Using this, anyone can create requests for fundraising to establish their startups, help the needy person etc.
 \item Also implemented voting system using which fundraisers have the power to choose whom to give the raised money 
 \end{tightitemize}
@@ -167,9 +171,11 @@ Twitter: \href{https://twitter.com/NamanSharma05}{twitter.com/NamanSharma05}
 \sectionspace
 
 \section{Achievements}
+\subsubsectionspace
 \vspace{\topsep}
 \begin{tightitemize}
-\item Global Rank 8 (College Rank 1) in CODEHUNT Coding Contest organized by ABESIT | \href{https://www.codechef.com/rankings/CHNT2022?itemsPerPage=100&order=asc&page=1&sortBy=rank}{RankList}
+\item Rank 1 in CODEBYTE 2.0 Organized by ABESIT | \href{https://www.codechef.com/rankings/CBT22022?itemsPerPage=100&order=asc&page=1&sortBy=rank}{RankList}
+\item Global Rank 8 (College Rank 1) in CODEHUNT Coding Contest Organized by ABESIT | \href{https://www.codechef.com/rankings/CHNT2022?itemsPerPage=100&order=asc&page=1&sortBy=rank}{RankList}
 \item 3 Star (max rating 1672) on CodeChef
 \item Pupil (max rating 1226) on Codeforces
 \end{tightitemize}
